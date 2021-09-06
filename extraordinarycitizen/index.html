@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>UndiMsia! | Are you an EXTRAORDINARY CITIZEN?</title>
+<link rel="stylesheet" href="./css/style.css" type="text/css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js" type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TimelineMax.min.js"></script>
+<script src="./js/app.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="wrapper" class="wrapperlayer">
+	<div id="content">
+		<section id="intro_screen" class="applayer">
+			<div class="container">
+				<div class="container_center">
+					<div id="intro_part1" class="intro_wrap">
+						<img src="images/intro/intro-illustration.png" id="intro_finger">
+						<img src="images/intro/intro-title.png" id="intro_title">
+						<img src="images/intro/intro-continue.png" id="intro_next">
+					</div>
+					<div id="intro_part2" class="intro_wrap">
+						<img src="images/intro/about-the-quiz-new-text.png" id="intro_about">
+						<img src="images/intro/intro-start-quiz.png" id="intro_start">
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="q1_screen" class="applayer">
+			<div class="container">
+				<div class="container_center">
+					<div id="q1_question_top" class="question_top_wrap">
+						<img src="images/q1/Q01-illustration.png" id="q1_top1">
+						<img src="images/q1/Q01-question01-1.png" id="q1_top2">
+						<img src="images/q1/Q01-question01-2.png" id="q1_top3">
+					</div>
+					<div id="q1_answer_bottom" class="answer_wrap" align="center">
+						<div id="q1_answer_circle" class="answer_circle_wrap"></div>
+						<div id="q1_answer_text" class="answer_text_wrap"></div>
+						<div id="q1_answer_hand" class="answer_hand_wrap">
+							<img src="images/q1/Q01-hands01.png" id="q1_hand1" data-value="1">
+							<img src="images/q1/Q01-hands02.png" id="q1_hand2" data-value="2">
+							<img src="images/q1/Q01-hands03.png" id="q1_hand3" data-value="3">
+						</div>	
+						<div class="question_progress_wrap">
+							<img src="images/progress-bar-01.png" id="q1_bar" class="question_progress">
+							<img src="images/next-question.png" id="q1_answer_next" class="question_next_btn">
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</section>
+		<section id="q2_screen" class="applayer">
+			<div class="container">
+				<div class="container_center">
+					<div id="q2_question_top" class="question_top_wrap">
+						<img src="images/q2/Q02-illustration.png" id="q2_top1">
+						<img src="images/q2/Q02-question02-1.png" id="q2_top2">
+						<img src="images/q2/Q02-question02-2.png" id="q2_top3">
+					</div>
+					<div id="q2_answer_bottom" class="answer_wrap" align="center">
+						<div id="q2_answer_circle" class="answer_circle_wrap"></div>
+						<div id="q2_answer_text" class="answer_text_wrap"></div>
+						<div id="q2_answer_hand" class="answer_hand_wrap">
+							<img src="images/q2/Q02-hands01.png" id="q2_hand1" data-value="1">
+							<img src="images/q2/Q02-hands02.png" id="q2_hand2" data-value="2">
+							<img src="images/q2/Q02-hands03.png" id="q2_hand3" data-value="3">
+						</div>
+						<div class="question_progress_wrap">
+							<img src="images/progress-bar-02.png" id="q2_bar" class="question_progress">
+							<img src="images/next-question.png" id="q2_answer_next" class="question_next_btn">
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</section>
+		<section id="q3_screen" class="applayer">
+			<div class="container">
+				<div class="container_center">
+					<div id="q3_question_top" class="question_top_wrap">
+						<img src="images/q3/Q03-illustration.png" id="q3_top1">
+						<img src="images/q3/Q03-question03-1.png" id="q3_top2">
+						<img src="images/q3/Q03-question03-2.png" id="q3_top3">
+					</div>
+					<div id="q3_answer_bottom" class="answer_wrap" align="center">
+						<div id="q3_answer_circle" class="answer_circle_wrap"></div>
+						<div id="q3_answer_text" class="answer_text_wrap"></div>
+						<div id="q3_answer_hand" class="answer_hand_wrap">
+							<img src="images/q3/Q03-hands01.png" id="q3_hand1" data-value="1">
+							<img src="images/q3/Q03-hands02.png" id="q3_hand2" data-value="2">
+							<img src="images/q3/Q03-hands03.png" id="q3_hand3" data-value="3">
+						</div>
+						<div class="question_progress_wrap">
+							<img src="images/progress-bar-03.png" id="q3_bar" class="question_progress">
+							<img src="images/next-question.png" id="q3_answer_next" class="question_next_btn">
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</section>
+		<section id="q4_screen" class="applayer">
+			<div class="container">
+				<div class="container_center">
+					<div id="q4_question_top" class="question_top_wrap">
+						<img src="images/q4/Q04-illustration01.png" id="q4_top1">
+						<img src="images/q4/Q04-illustration02.png" id="q4_top2">
+						<img src="images/q4/Q04-question04-1.png" id="q4_top3">
+						<img src="images/q4/Q04-question04-2.png" id="q4_top4">
+					</div>
+					<div id="q4_answer_bottom" class="answer_wrap" align="center">
+						<div id="q4_answer_circle" class="answer_circle_wrap"></div>
+						<div id="q4_answer_text" class="answer_text_wrap"></div>
+						<div id="q4_answer_hand" class="answer_hand_wrap">
+							<img src="images/q4/Q04-hands01.png" id="q4_hand1" data-value="1">
+							<img src="images/q4/Q04-hands02.png" id="q4_hand2" data-value="2">
+							<img src="images/q4/Q04-hands03.png" id="q4_hand3" data-value="3">
+						</div>
+						<div class="question_progress_wrap">
+							<img src="images/progress-bar-04.png" id="q4_bar" class="question_progress">
+							<img src="images/next-question.png" id="q4_answer_next" class="question_next_btn">
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</section>
+		<section id="q5_screen" class="applayer">
+			<div class="container">
+				<div class="container_center">
+					<div id="q5_question_top" class="question_top_wrap">
+						<img src="images/q5/Q05-illustration.png" id="q5_top1">
+						<img src="images/q5/Q05-question05-1.png" id="q5_top2">
+						<img src="images/q5/Q05-question05-2.png" id="q5_top3">
+					</div>
+					<div id="q5_answer_bottom" class="answer_wrap" align="center">
+						<div id="q5_answer_circle" class="answer_circle_wrap"></div>
+						<div id="q5_answer_text" class="answer_text_wrap"></div>
+						<div id="q5_answer_hand" class="answer_hand_wrap">
+							<img src="images/q5/Q05-hands01.png" id="q5_hand1" data-value="1">
+							<img src="images/q5/Q05-hands02.png" id="q5_hand2" data-value="2">
+							<img src="images/q5/Q05-hands03.png" id="q5_hand3" data-value="3">
+						</div>
+						<div class="question_progress_wrap">
+							<img src="images/progress-bar-05.png" id="q5_bar" class="question_progress">
+							<img src="images/next-question.png" id="q5_answer_next" class="question_next_btn">
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</section>
+		<section id="q6_screen" class="applayer">
+			<div class="container">
+				<div class="container_center">
+					<div id="q6_question_top" class="question_top_wrap">
+						<img src="images/q6/Q06-illustration.png" id="q6_top1">
+						<img src="images/q6/Q06-question06-1.png" id="q6_top2">
+						<img src="images/q6/Q06-question06-2.png" id="q6_top3">
+						<img src="images/q6/Q06-question06-3.png" id="q6_top4">
+					</div>
+					<div id="q6_answer_bottom" class="answer_wrap" align="center">
+						<div id="q6_answer_circle" class="answer_circle_wrap"></div>
+						<div id="q6_answer_text" class="answer_text_wrap"></div>
+						<div id="q6_answer_hand" class="answer_hand_wrap">
+							<img src="images/q6/Q06-hands01.png" id="q6_hand1" data-value="1">
+							<img src="images/q6/Q06-hands02.png" id="q6_hand2" data-value="2">
+							<img src="images/q6/Q06-hands03.png" id="q6_hand3" data-value="3">
+						</div>
+						<div class="question_progress_wrap">
+							<img src="images/progress-bar-06.png" id="q6_bar" class="question_progress">
+							<img src="images/next-question.png" id="q6_answer_next" class="question_next_btn">
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</section>
+		<section id="q7_screen" class="applayer">
+			<div class="container">
+				<div class="container_center">
+					<div id="q7_question_top" class="question_top_wrap">
+						<img src="images/q7/Q07-illustration.png" id="q7_top1">
+						<img src="images/q7/Q07-question07-1.png" id="q7_top2">
+						<img src="images/q7/Q07-question07-2.png" id="q7_top3">
+					</div>
+					<div id="q7_answer_bottom" class="answer_wrap" align="center">
+						<div id="q7_answer_circle" class="answer_circle_wrap"></div>
+						<div id="q7_answer_text" class="answer_text_wrap"></div>
+						<div id="q7_answer_hand" class="answer_hand_wrap">
+							<img src="images/q7/Q07-hands01.png" id="q7_hand1" data-value="1">
+							<img src="images/q7/Q07-hands02.png" id="q7_hand2" data-value="2">
+							<img src="images/q7/Q07-hands03.png" id="q7_hand3" data-value="3">
+						</div>
+						<div class="question_progress_wrap">
+							<img src="images/progress-bar-07.png" id="q7_bar" class="question_progress">
+							<img src="images/next-question.png" id="q7_answer_next" class="question_next_btn">
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</section>
+		<section id="q8_screen" class="applayer">
+			<div class="container">
+				<div class="container_center">
+					<div id="q8_question_top" class="question_top_wrap">
+						<img src="images/q8/Q08-illustration.png" id="q8_top1">
+						<img src="images/q8/Q08-question08.png" id="q8_top2">
+					</div>
+					<div id="q8_answer_bottom" class="answer_wrap" align="center">
+						<div id="q8_answer_circle" class="answer_circle_wrap"></div>
+						<div id="q8_answer_text" class="answer_text_wrap"></div>
+						<div id="q8_answer_hand" class="answer_hand_wrap">
+							<img src="images/q8/Q08-hands01.png" id="q8_hand1" data-value="1">
+							<img src="images/q8/Q08-hands02.png" id="q8_hand2" data-value="2">
+							<img src="images/q8/Q08-hands03.png" id="q8_hand3" data-value="3">
+						</div>
+						<div class="question_progress_wrap">
+							<img src="images/progress-bar-08.png" id="q8_bar" class="question_progress">
+							<img src="images/next-question.png" id="q8_answer_next" class="question_next_btn">
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</section>
+		<section id="q9_screen" class="applayer">
+			<div class="container">
+				<div class="container_center">
+					<div id="q9_question_top" class="question_top_wrap">
+						<img src="images/q9/Q09-illustration.png" id="q9_top1">
+						<img src="images/q9/Q09-question09-1.png" id="q9_top2">
+						<img src="images/q9/Q09-question09-2.png" id="q9_top3">
+					</div>
+					<div id="q9_answer_bottom" class="answer_wrap" align="center">
+						<div id="q9_answer_circle" class="answer_circle_wrap"></div>
+						<div id="q9_answer_text" class="answer_text_wrap"></div>
+						<div id="q9_answer_hand" class="answer_hand_wrap">
+							<img src="images/q9/Q09-hands01.png" id="q9_hand1" data-value="1">
+							<img src="images/q9/Q09-hands02.png" id="q9_hand2" data-value="2">
+							<img src="images/q9/Q09-hands03.png" id="q9_hand3" data-value="3">
+						</div>
+						<div class="question_progress_wrap">
+							<img src="images/progress-bar-09.png" id="q9_bar" class="question_progress">
+							<img src="images/next-question.png" id="q9_answer_next" class="question_next_btn">
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</section>
+		<section id="q10_screen" class="applayer">
+			<div class="container">
+				<div class="container_center">
+					<div id="q10_question_top" class="question_top_wrap">
+						<img src="images/q10/Q10-illustration.png" id="q10_top1">
+						<img src="images/q10/Q10-question10-1.png" id="q10_top2">
+						<img src="images/q10/Q10-question10-2.png" id="q10_top3">
+					</div>
+					<div id="q10_answer_bottom" class="answer_wrap" align="center">
+						<div id="q10_answer_circle" class="answer_circle_wrap"></div>
+						<div id="q10_answer_text" class="answer_text_wrap"></div>
+						<div id="q10_answer_hand" class="answer_hand_wrap">
+							<img src="images/q10/Q10-hands01.png" id="q10_hand1" data-value="1">
+							<img src="images/q10/Q10-hands02.png" id="q10_hand2" data-value="2">
+							<img src="images/q10/Q10-hands03.png" id="q10_hand3" data-value="3">
+						</div>
+						<div class="question_progress_wrap">
+							<img src="images/progress-bar-10.png" id="q10_bar" class="question_progress">
+							<img src="images/next-question.png" id="q10_answer_next" class="question_next_btn">
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</section>
+		<section id="q11_screen" class="applayer">
+			<div class="container">
+				<div class="container_center">
+					<div id="q11_question_top" class="question_top_wrap">
+						<img src="images/q11/Q11-illustration.png" id="q11_top1">
+						<img src="images/q11/Q11-question11-1.png" id="q11_top2">
+						<img src="images/q11/Q11-question11-2.png" id="q11_top3">
+					</div>
+					<div id="q11_answer_bottom" class="answer_wrap" align="center">
+						<div id="q11_answer_circle" class="answer_circle_wrap"></div>
+						<div id="q11_answer_text" class="answer_text_wrap"></div>
+						<div id="q11_answer_hand" class="answer_hand_wrap">
+							<img src="images/q11/Q11-hands01.png" id="q11_hand1" data-value="1">
+							<img src="images/q11/Q11-hands02.png" id="q11_hand2" data-value="2">
+							<img src="images/q11/Q11-hands03.png" id="q11_hand3" data-value="3">
+						</div>
+						<div class="question_progress_wrap">
+							<img src="images/progress-bar-11.png" id="q11_bar" class="question_progress">
+							<img src="images/next-question.png" id="q11_answer_next" class="question_next_btn">
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</section>
+		<section id="q12_screen" class="applayer">
+			<div class="container">
+				<div class="container_center">
+					<div id="q12_question_top" class="question_top_wrap">
+						<img src="images/q12/Q12-illustration.png" id="q12_top1">
+						<img src="images/q12/Q12-question12.png" id="q12_top2">
+					</div>
+					<div id="q12_answer_bottom" class="answer_wrap" align="center">
+						<div id="q12_answer_circle" class="answer_circle_wrap"></div>
+						<div id="q12_answer_text" class="answer_text_wrap"></div>
+						<div id="q12_answer_hand" class="answer_hand_wrap">
+							<img src="images/q12/Q12-hands01.png" id="q12_hand1" data-value="1">
+							<img src="images/q12/Q12-hands02.png" id="q12_hand2" data-value="2">
+							<img src="images/q12/Q12-hands03.png" id="q12_hand3" data-value="3">
+						</div>						
+						<div class="question_progress_wrap">
+							<img src="images/progress-bar-12.png" id="q12_bar" class="question_progress">
+							<img src="images/next-question.png" id="q12_answer_next" class="question_next_btn">							
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</section>
+		<section id="q13_screen" class="applayer">
+			<div class="container">
+				<div class="container_center">
+					<div id="q13_question_top" class="question_top_wrap">
+						<img src="images/q13/Q13-illustration.png" id="q13_top1">
+						<img src="images/q13/Q13-question13-1.png" id="q13_top2">
+						<img src="images/q13/Q13-question13-2.png" id="q13_top3">
+					</div>
+					<div id="q13_answer_bottom" class="answer_wrap" align="center">
+						<div id="q13_answer_circle" class="answer_circle_wrap"></div>
+						<div id="q13_answer_text" class="answer_text_wrap"></div>
+						<div id="q13_answer_hand" class="answer_hand_wrap">
+							<img src="images/q13/Q13-hands01.png" id="q13_hand1" data-value="1">
+							<img src="images/q13/Q13-hands02.png" id="q13_hand2" data-value="2">
+							<img src="images/q13/Q13-hands03.png" id="q13_hand3" data-value="3">
+						</div>						
+						<div class="question_progress_wrap">
+							<img src="images/progress-bar-13.png" id="q13_bar" class="question_progress">
+							<img src="images/next-question.png" id="q13_answer_next" class="question_next_btn">							
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</section>
+		<section id="q14_screen" class="applayer">
+			<div class="container">
+				<div class="container_center">
+					<div id="q14_question_top" class="question_top_wrap">
+						<img src="images/q14/Q14-illustration01.png" id="q14_top1">
+						<img src="images/q14/Q14-illustration02.png" id="q14_top2">
+						<img src="images/q14/Q14-question14-1.png" id="q14_top3">
+						<img src="images/q14/Q14-question14-2.png" id="q14_top4">
+					</div>
+					<div id="q14_answer_bottom" class="answer_wrap" align="center">
+						<div id="q14_answer_circle" class="answer_circle_wrap"></div>
+						<div id="q14_answer_text" class="answer_text_wrap"></div>
+						<div id="q14_answer_hand" class="answer_hand_wrap">
+							<img src="images/q14/Q14-hands01.png" id="q14_hand1" data-value="1">
+							<img src="images/q14/Q14-hands02.png" id="q14_hand2" data-value="2">
+							<img src="images/q14/Q14-hands03.png" id="q14_hand3" data-value="3">
+						</div>
+						<div class="question_progress_wrap">
+							<img src="images/progress-bar-14.png" id="q14_bar" class="question_progress">
+							<img src="images/next-question.png" id="q14_answer_next" class="question_next_btn">
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</section>
+		<section id="q15_screen" class="applayer">
+			<div class="container">
+				<div class="container_center">
+					<div id="q15_question_top" class="question_top_wrap">
+						<img src="images/q15/Q15-illustration.png" id="q15_top1">
+						<img src="images/q15/Q15-question15-1.png" id="q15_top2">
+						<img src="images/q15/Q15-question15-2.png" id="q15_top3">
+					</div>
+					<div id="q15_answer_bottom" class="answer_wrap" align="center">
+						<div id="q15_answer_circle" class="answer_circle_wrap"></div>
+						<div id="q15_answer_text" class="answer_text_wrap"></div>
+						<div id="q15_answer_hand" class="answer_hand_wrap">
+							<img src="images/q15/Q15-hands01.png" id="q15_hand1" data-value="1">
+							<img src="images/q15/Q15-hands02.png" id="q15_hand2" data-value="2">
+							<img src="images/q15/Q15-hands03.png" id="q15_hand3" data-value="3">
+						</div>
+						<div class="question_progress_wrap">
+							<img src="images/progress-bar-15.png" id="q15_bar" class="question_progress">
+							<img src="images/q15/see-my-results.png" id="q15_answer_next" class="question_next_btn">
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</section>
+		<section id="result_screen" class="applayer">
+			<div class="container">
+				<div class="container_center">
+					<div id="result_1">
+						<img src="images/result/mostly-LEFT-answers.png" id="result_desc_1" class="result_desc">
+					</div>
+					<div id="result_2">
+						<img src="images/result/mostly-MIDDLE-answers.png" id="result_desc_2" class="result_desc">
+					</div>
+					<div id="result_3">
+						<img src="images/result/mostly-RIGHT-answers.png" id="result_desc_3" class="result_desc">
+					</div>
+					<div id="result_footer" align="center">
+						<img src="images/result/share-your-results.png" id="share_text">
+						<img src="images/result/share-on-facebook.png" id="share_fb">
+						<img src="images/result/share-on-twitter.png" id="share_tw">
+						<img src="images/result/undimsialogo.png" id="share_logo">
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+</div>
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-47573826-3', 'auto');
+ga('send', 'pageview');
+</script>
+</body>
+</html>

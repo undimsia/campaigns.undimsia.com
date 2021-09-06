@@ -1,0 +1,43 @@
+body {
+    font-weight: 500;
+    background-color: #1b1464;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+}
+strong { font-weight: bold; }
+em { font-style: italic; }
+small { font-size: 80%; }
+ul li { list-style-type: disc; }
+ol li { list-style-type: decimal; }
+
+#cover, #cover .container { background-color: #64aadc; }
+
+#intro, #intro .container { background-color: #fff; }
+
+#drafting, #drafting .container { background-color: #c1ddf1; }
+
+#lowerhouse, #lowerhouse .container { background-color: #aad0ec; }
+
+#upperhouse, #upperhouse .container { background-color: #93c4e7; }
+
+#implementation, #implementation .container { background-color: #7bb7e1; }
+
+#call, #call .container { background-color: #64aadc; }
+
+.section .container {
+    top: 0%;
+    height: 704px;
+    left: 50%;
+    margin-left: -256px;
+    width: 512px;
+    position: absolute;
+    background: none;
+}
+
+.section .container.container-lower {
+    top: auto;
+    margin-top: auto;
+    bottom: 0%;
+    background: blue;
+}

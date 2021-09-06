@@ -1,0 +1,13 @@
+	#u1274
+	{
+		background: -webkit-gradient(linear, left center, right center, from(#FF4F4F),color-stop(100%, #FF4F5F));
+		background: -webkit-linear-gradient(left,#FF4F4F ,#FF4F5F 100%);
+		background: linear-gradient(to right,#FF4F4F ,#FF4F5F 100%);
+	}
+
+	#u1274_align_to_page,#u1277_align_to_page,#u1304_align_to_page,#u1307_align_to_page,#u1318_align_to_page,#u1336_align_to_page,#u1342_align_to_page,#u1345_align_to_page,#u1351_align_to_page,#u1354_align_to_page
+	{
+		max-width: 1000px;
+	}
+
+

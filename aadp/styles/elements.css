@@ -1,0 +1,499 @@
+.section {
+    position: relative;
+}
+
+.midline {
+    height: 100%;
+    width: 10px;
+    background-color: #ed1c24;
+    margin: auto;
+    position: relative;
+}
+
+.midline .touch.touch-down {
+    display: block;
+    top: 70%;
+    left: -25.5px;
+    position: absolute;
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    background-color: #ed1c24;
+    background-image: url('../images/sign-arrow.png');
+    background-repeat: no-repeat;
+    background-size: 36px 36px;
+    background-position: 50% 50%;
+}
+
+.left {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+}
+
+.right {
+    position: absolute;
+    right: 0;
+    width: 50%;
+    height: 100%;
+}
+
+.spread {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.bg { width: 100%; height: 100%; background-repeat: no-repeat; }
+
+.bg.bg-parliamenthouse { background-image: url('../images/bg-parliamenthouse.png'); }
+.bg.bg-flag { background-image: url('../images/bg-flag.png'); }
+.bg.bg-hill-1 { background-image: url('../images/bg-hill-1.png'); }
+.bg.bg-hill-2 { background-image: url('../images/bg-hill-2.png'); }
+.bg.bg-hill-3 { background-image: url('../images/bg-hill-3.png'); }
+.bg.bg-hill-4 { background-image: url('../images/bg-hill-4.png'); }
+.bg.bg-duriantree { background-image: url('../images/bg-duriantree.png'); }
+.bg.bg-duriantree-lg { background-image: url('../images/bg-duriantree-lg.png'); }
+.bg.bg-durianhalo-en { background-image: url('../images/bg-durianhalo-en.png'); background-size: 363px 327px; }
+.bg.bg-durianhalo-ms { background-image: url('../images/bg-durianhalo-ms.png'); background-size: 363px 327px; }
+.bg.bg-papayatree { background-image: url('../images/bg-papayatree.png'); }
+.bg.bg-papayatree-lg { background-image: url('../images/bg-papayatree-lg.png'); }
+.bg.bg-papayahalo-en { background-image: url('../images/bg-papayahalo-en.png'); background-size: 363px 327px; }
+.bg.bg-papayahalo-ms { background-image: url('../images/bg-papayahalo-ms.png'); background-size: 363px 327px; }
+.bg.bg-cloud { background-image: url('../images/bg-cloud.png'); }
+.bg.bg-blurb { background-image: url('../images/bg-blurb.png'); background-size: 768px 90px; }
+.bg.bg-title-1 { background-image: url('../images/bg-title-1.png'); background-size: 384px 90px; }
+.bg.bg-title-2 { background-image: url('../images/bg-title-2.png'); background-size: 384px 90px; }
+.bg.bg-title-3 { background-image: url('../images/bg-title-3.png'); background-size: 384px 90px; }
+.bg.bg-title-4 { background-image: url('../images/bg-title-4.png'); background-size: 384px 90px; }
+
+/*
+.bg.bg-left-1 { background-image: url('../images/bg-left-1.png'); }
+.bg.bg-left-2 { background-image: url('../images/bg-left-2.png'); }
+.bg.bg-left-3 { background-image: url('../images/bg-left-3.png'); }
+.bg.bg-left-4 { background-image: url('../images/bg-left-4.png'); }
+.bg.bg-right-1 { background-image: url('../images/bg-right-1.png'); }
+.bg.bg-right-2 { background-image: url('../images/bg-right-2.png'); }
+.bg.bg-right-3 { background-image: url('../images/bg-right-3.png'); }
+.bg.bg-right-4 { background-image: url('../images/bg-right-4.png'); }
+*/
+.bg.bg-left-1 { background-image: url('../images/bg-clean-left-1.png'); }
+.bg.bg-left-2 { background-image: url('../images/bg-clean-left-2.png'); }
+.bg.bg-left-3 { background-image: url('../images/bg-clean-left-3.png'); }
+.bg.bg-left-4 { background-image: url('../images/bg-clean-left-4.png'); }
+.bg.bg-right-1 { background-image: url('../images/bg-clean-right-1.png'); }
+.bg.bg-right-2 { background-image: url('../images/bg-clean-right-2.png'); }
+.bg.bg-right-3 { background-image: url('../images/bg-clean-right-3.png'); }
+.bg.bg-right-4 { background-image: url('../images/bg-clean-right-4.png'); }
+
+.bg.bg-leftlower { background-image: url('../images/bg-leftlower.png'); }
+.bg.bg-rightlower { background-image: url('../images/bg-rightlower.png'); }
+
+#cover .bg.bg-hill-1 { background-position: -50% 100%; }
+#cover .bg.bg-hill-2 { background-position: 75% 100%; }
+#cover .bg.bg-hill-3 { background-position: 125% 100%; }
+#cover .bg.bg-hill-4 { background-position: -50% 100%; }
+#cover .bg.bg-parliamenthouse { background-position: 33% 100%; }
+#cover .bg.bg-flag { background-position: 60% 87.5%; }
+#cover .bg.bg-duriantree { background-position: 1% 85%; }
+#cover .bg.bg-papayatree { background-position: 77.5% 92.5%; }
+#cover .bg.bg-cloud.bg-cloud-1 { background-position: 5% 11%; }
+#cover .bg.bg-cloud.bg-cloud-2 { background-position: 42.5% 22%; }
+#cover .bg.bg-cloud.bg-cloud-3 { background-position: 1% 33%; }
+#cover .bg.bg-cloud.bg-cloud-4 { background-position: 99.5% 44%; }
+#cover .bg.bg-cloud.bg-cloud-5 { background-position: 90% 55%; }
+#cover .bg.bg-cloud.bg-cloud-6 { background-position: 37.5% 66%; }
+
+#intro .bg.bg-duriantree-lg { background-position: -11% 22%; }
+#intro .bg.bg-overlay.bg-duriantree { 
+    background-position: 50% 50%; 
+    position: absolute;
+    width: 161px;
+    height: 172px;
+    top: -10%;
+    left: -4500%;
+}
+#intro .bg.bg-overlay.bg-duriantree-lg {
+    -moz-transform: scaleX(-1); -o-transform: scaleX(-1); -webkit-transform: scaleX(-1); transform: scaleX(-1); filter: FlipH; -ms-filter: "FlipH";
+    background-position: 50% 50%; 
+    position: absolute;
+    width: 217px;
+    height: 232px;
+    top: -1.111%;
+    left: -2222%;
+}
+#intro .bg.bg-papayatree-lg { background-position: 111% 22%; }
+#intro .bg.bg-overlay.bg-papayatree { 
+    background-position: 50% 50%; 
+    position: absolute;
+    width: 156px;
+    height: 214px;
+    top: -25%;
+    left: 3500%;
+}
+#intro .bg.bg-overlay.bg-papayatree-lg { 
+    -moz-transform: scaleX(-1); -o-transform: scaleX(-1); -webkit-transform: scaleX(-1); transform: scaleX(-1); filter: FlipH; -ms-filter: "FlipH";
+    background-position: 50% 50%; 
+    position: absolute;
+    width: 210px;
+    height: 288px;
+    top: -5%;
+    left: 500%;
+}
+#intro .bg.bg-durianhalo, #intro .bg.bg-durianhalo-ms { background-position: 50% 66%; }
+#intro .bg.bg-papayahalo, #intro .bg.bg-papayahalo-ms { background-position: 50% 66%; }
+#intro .bg.bg-blurb { background-position: 50% 50%; }
+
+.section .bg.bg-title { background-position: 50% 50%; }
+
+.section.stage .left .container .bg { background-position: 0% 0%; background-size: 512px 704px; }
+.section.stage .right .container .bg { background-position: 100% 0%; background-size: 512px 704px; }
+
+.section.stage .bg.bg-leftlower { background-position: 50% 100%; background-size: 512px auto; background-repeat: repeat-y; }
+.section.stage .bg.bg-rightlower { background-position: 50% 100%; background-size: 512px auto; background-repeat: repeat-y; }
+
+#call .bg.bg-hill-1 { background-position: -45% 100%; }
+#call .bg.bg-hill-2 { background-position: 70% 100%; }
+#call .bg.bg-hill-3 { background-position: 120% 100%; }
+#call .bg.bg-hill-4 { background-position: -45% 100%; }
+#call .bg.bg-parliamenthouse { background-position: 25% 100%; }
+#call .bg.bg-flag { background-position: 70% 82.5%; }
+#call .bg.bg-duriantree { background-position: -5% 85%; }
+#call .bg.bg-papayatree { background-position: 95% 92.5%; }
+#call .bg.bg-cloud.bg-cloud-1 { background-position: 45% 10%; }
+#call .bg.bg-cloud.bg-cloud-2 { background-position: 99% 20%; }
+#call .bg.bg-cloud.bg-cloud-3 { background-position: 1% 30%; }
+#call .bg.bg-cloud.bg-cloud-4 { background-position: 94.5% 40%; }
+#call .bg.bg-cloud.bg-cloud-5 { background-position: 40% 50%; }
+#call .bg.bg-cloud.bg-cloud-6 { background-position: 35% 60%; }
+
+
+/* TEXTS */
+
+.text-serif {
+    font-family: "Noto Serif", serif;
+}
+
+#cover .right .text-switch {
+    text-align: right;
+    color: #c1ddf1;
+}
+
+#cover .right .text-switch a {
+    color: #c1ddf1;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+#cover .right .text-switch a:hover {
+    color: #fff;
+}
+
+#cover .right .text-switch a.active {
+    font-weight: bold;
+    color: #fff;
+}
+
+#cover .left .text {
+    text-align: center;
+    padding-top: 11%;
+    color: #fff;
+}
+
+#cover .left .text h1 {
+    font-size: 60px;
+    line-height: 65px;
+}
+
+#cover .left .text h2 {
+    margin-top: 15px;
+    font-size: 30px;
+    line-height: 35px;
+}
+
+#cover .right .text {
+    width: 341.30px;
+    margin: auto;
+    padding-top: 5.5%;
+    color: #1b1464;
+}
+
+#cover .right .text p {
+    padding-bottom: 10px;
+}
+
+#cover .right .text ul {
+    padding-bottom: 5px;
+}
+
+#cover .right .text ul li {
+    margin-left: 20px;
+    padding-bottom: 5px;
+}
+
+#intro .midline .text.text-blurb {
+    width: 768px;
+    height: 90px;
+    position: absolute;
+    bottom: 2.5%;
+    left: -381.5px;    
+}
+
+#intro .midline .text.text-blurb p {
+    text-align: center;
+    color: #1b1464;
+    font-size: 16.5px;
+    padding: 15px 30px;
+}
+
+.section .midline .text.text-title {
+    position: absolute;
+    top: 2.5%;
+    left: -187px;
+    width: 384px;
+    height: 90px;
+}
+
+.section .midline .text.text-title span {
+    display: block;
+    float: left;
+    text-align: center;
+    font-weight: bold;
+    line-height: 30px;
+    padding: 30px 0;
+}
+
+.section .midline .text.text-title .numero {
+    width: 75px;
+    color: #ed1c24;
+    margin-left: 15px;
+    font-size: 40px;
+}
+
+.section .midline .text.text-title .title {
+    width: 294px;
+    color: #1b1464;
+    font-size: 30px;
+}
+
+.section .midline .text.text-title .title a {
+    color: #1b1464;
+}
+
+.section.stage .label {
+    position: absolute;
+}
+
+.section.stage .label a {
+    display: block;
+    width: 88px;
+    height: 88px;
+    border: 2px solid #1b1464;
+    border-radius: 100%;
+    text-decoration: none;
+    text-align: center;
+    color: #1b1464;
+    font-weight: bold;
+    font-size: 13.5px;
+    line-height: 15px;
+}
+
+.section.stage .left .label a { 
+    background-color: #507828;
+}
+
+.section.stage .right .label a {
+    background-color: #f7931e;
+}
+
+.section.stage .label.label-info-switch a {
+    width: 70px;
+    height: 70px;
+    border: 0;
+    font-size: 45px;
+    line-height: 70px;
+    color: #fff;
+    background: none;
+}
+
+.section.stage .label a span {
+    display: block;
+    padding: 15px 0;
+}
+
+.section.stage .label-odd a span {
+    padding: 22.5px 0;
+}
+
+.section.stage .sign {
+    position: absolute;
+}
+
+.section.stage .sign a {
+    display: block;
+    width: 90px;
+    height: 60px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 36px 36px;
+}
+
+.section.stage .sign.sign-denied a {
+    width: 160px;
+    background-image: url('../images/sign-denied.png');
+}
+
+.section.stage .sign.sign-stopped a {
+    background-image: url('../images/sign-stopped.png');
+}
+
+.section.stage .sign.sign-returned a {
+    background-image: url('../images/sign-returned.png');
+}
+
+.section.stage .modal {
+    display: none;
+    position: absolute;
+    top: 50px;
+    width: 512px;
+    border: 1px solid #fff;
+}
+
+.section.stage .modal.modal-right {
+    left: -500%;
+}
+
+.section.stage .modal.modal-left {
+    right: -500%;
+}
+
+.section.stage .modal.active {
+    display: block;
+}
+
+.section.stage .modal-container {
+    background-color: #fff;
+    border: 2px solid #1b1464;
+}
+
+.section.stage .modal .modal-close {
+    display: block;
+    top: -15px;
+    right: -15px;
+    position: absolute;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    background-color: #1b1464;
+    background-image: url('../images/sign-cross-circle.png');
+    background-repeat: no-repeat;
+    background-size: 36px 36px;
+    background-position: 50% 50%;
+}
+
+.section.stage .modal .modal-header {
+    font-weight: bold;
+    color: #1b1464;
+    line-height: 25px;
+    font-size: 25px;
+}
+
+.section.stage .modal.modal-right .modal-header {
+    background-color: #507828;
+}
+
+.section.stage .modal.modal-left .modal-header {
+    background-color: #f7931e;
+}
+
+.section.stage .modal .modal-header h3 {
+    padding: 10px 30px;
+}
+
+.section.stage .modal .modal-body {
+    max-height: 512px;
+    overflow-y: scroll;
+    border: 2px solid #FFF;
+}
+
+
+/* SCROLLER */
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: 0; 
+    -webkit-border-radius: 0;
+    border-radius: 0px;
+}
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 0;
+    -webkit-box-shadow: 0; 
+    border-radius: 0;
+    background: #1b1464; 
+    border: 0;
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: none; 
+}
+
+.section.stage .modal .modal-body p {
+    color: #1b1464;
+    padding: 10px 30px 0 30px;
+}
+
+.section.stage .modal .modal-body p:first-child {
+    padding: 20px 30px 0 30px; 
+}
+
+.section.stage .modal .modal-body p:last-child {
+    padding: 10px 30px 30px 30px; 
+}
+
+#call .text {
+    width: 341.30px;
+    margin: auto;
+    padding-top: 11%;
+    color: #1b1464;
+    line-height: 25px;
+    font-size: 20px;
+}
+
+#call .text a {
+    color: #1b1464;
+}
+
+#call .right .text {
+    line-height: 30px;
+    font-size: 25px;
+}
+
+#call .right .touch.touch-social {
+    text-decoration: none;
+    display: inline;
+    background-position: 0% 50%;
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    margin-right: 30px;
+    font-weight: bold;
+}
+
+#call .right .touch.touch-facebook { background-image: url('../images/logo-facebook.png'); }
+#call .right .touch.touch-twitter { background-image: url('../images/logo-twitter.png'); }
+
+#colophon .text {
+    color: #FFF;
+}
+
+#colophon .left .text {
+    padding-top: 11%;
+    padding-left: 22%;
+    padding-right: 22%;
+}
+
+#colophon .right .text {
+    padding-top: 11%;
+    padding-left: 22%;
+    padding-right: 22%;
+}
